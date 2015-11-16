@@ -281,3 +281,160 @@ h1, h2, h3, h4, h5, h6 {
 			float:left;
 			margin:0 1% 1% 0;}
 }
+
+@media only screen and (min-width:481px) and (max-width:600px) {
+	header {
+		padding:30px 30px 20px 0;
+		overflow:hidden;
+		position:relative;}
+		
+		.logo {
+			float:none;
+			display:block;
+			margin:10px auto 0;}
+			header h1 {
+				float:none;
+				font:15px "Myriad Pro";
+				color:#939393;
+				margin:15px 0 0 0;
+				text-align:center;
+				}
+			header p {
+				float:none;
+				overflow:hidden;
+				position:absolute;
+				top:20px;
+				right:30px;}
+		
+				 .slogan {
+					 float:none;
+					 width:100%;
+					 margin-bottom:20px;}
+					 .slogan div {
+						 padding-right:0;}
+					 
+						 .slogan h2 {
+							 font:13px "Trebuchet MS";
+							 overflow:hidden;
+							 margin-bottom:5px;
+							 }
+	
+	.services {
+		width:50%;}
+		.advertising-main h2 {
+			text-align:center;
+			width:100%;
+			float:none;
+			margin-bottom:20px;
+		}
+		.advertising-main a {
+			float:none;
+			display:inline;
+		}	
+		
+		
+	.comment-main {
+		float:none;
+		width:100%;
+		margin-bottom:20px;
+		overflow:hidden;
+		}
+	.news-main {
+		float:none;
+		width:100%;
+		overflow:hidden;
+		margin-bottom:20px;
+	}
+		.news {
+			width:48%;
+			float:left;
+			margin:0 1% 1% 0;}	
+}
+
+@media only screen and (min-width:241px) and (max-width:480px) {
+		header {
+			padding:10px 0 10px 0;
+			overflow:hidden;
+			position:relative;
+		}
+		
+		.logo {
+			float:none;
+			display:block;
+			width:100px;
+			margin:0 auto;}
+			header h1 {
+				display:none;
+			}
+			header p {
+				display:none;
+			}
+		
+				 .slogan {
+					 float:none;
+					 width:100%;
+					 margin-bottom:20px;}
+					 .slogan div {
+						 padding-right:0;}
+						 .slogan h2 {
+							 font:13px "Trebuchet MS";
+							 overflow:hidden;
+							 margin-bottom:5px;
+							 }
+	
+	.services {
+		width:100%;}
+		.services div {
+			padding-right:0;}
+		.advertising-main h2 {
+			text-align:center;
+			width:100%;
+			float:none;
+			margin-bottom:20px;
+		}
+		.advertising-main a {
+			float:none;
+			display:inline;
+		}	
+		.advertising-main a img {
+			max-width:100%;}
+		
+		
+	.comment-main {
+		float:none;
+		width:100%;
+		margin-bottom:20px;
+		overflow:hidden;
+		}
+		.comment {
+			float:none;
+			width:100%;
+			margin-bottom:10px;}
+	.news-main {
+		float:none;
+		width:100%;
+		overflow:hidden;
+		margin-bottom:20px;
+	}
+		.news {
+			width:100%;
+			float:none;
+			margin-bottom:10px;}
+			
+	.footer-main {
+				padding:10px 15px;
+				line-height:1.2;}
+					.footer-left {
+						float:none;
+						width:100%;
+						margin-right:0;}
+					.footer-right {
+						float:none;
+						width:100%;
+						margin-top:10px;
+						}
+						.footer-right ul {
+							list-style-type:none;}
+							.footer-right ul li {
+								margin-bottom:3px;}
+}
